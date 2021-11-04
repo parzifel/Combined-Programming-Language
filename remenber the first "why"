@@ -1,0 +1,11 @@
+    #include<stdio.h>
+  int main()
+{ int m;
+ printf("请输入一个数字：");
+ scanf("%d",m);
+    if(m%2==1)
+     printf("结果为奇数\n,m");	
+	else 
+     printf("结果为偶数\n,m"); 
+      return 0;
+}
